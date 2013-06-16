@@ -27,7 +27,7 @@
 \RequirePackage{pifont} % einige Befehle brauchen pifont (Symbole)
 \RequirePackage{setspace}
 \RequirePackage[style=authortitle-dw]{biblatex}
-\usepackage[a4paper]{geometry} % für Seitenränder, 
+\usepackage[a4paper,bottom=15mm]{geometry} % für Seitenränder, 
 
 
 \pagenumbering{arabic}
