@@ -13,7 +13,7 @@
 
 
 % Schrift & Sprache
-\usepackage[utf8]{inputenc} % Schriftsatz utf8 verwenden 
+\RequirePackage[utf8]{luainputenc}
 \RequirePackage[T1]{fontenc} % T1-Fonts
 \RequirePackage[ngerman]{babel} % Deutsche Sonderzeichen und Silbentrennung (neue Rechtschreibung)
 \usepackage{mathpazo}
