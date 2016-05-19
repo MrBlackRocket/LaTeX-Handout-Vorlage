@@ -26,7 +26,7 @@
 \RequirePackage{color}
 \RequirePackage{pifont} % einige Befehle brauchen pifont (Symbole)
 \RequirePackage{setspace}
-\RequirePackage[style=authortitle-dw]{biblatex}
+\RequirePackage[style=authortitle-dw, backend=bibtex]{biblatex}
 \usepackage[a4paper,bottom=15mm]{geometry} % für Seitenränder, 
 
 
