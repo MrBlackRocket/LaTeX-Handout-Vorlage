@@ -26,7 +26,7 @@
 \RequirePackage{color}
 \RequirePackage{pifont} % einige Befehle brauchen pifont (Symbole)
 \RequirePackage{setspace}
-\RequirePackage[style=authortitle-dw]{biblatex}
+\RequirePackage[style=authortitle-dw, backend=bibtex]{biblatex}
 \usepackage[a4paper,bottom=15mm]{geometry} % für Seitenränder, 
 
 
@@ -115,7 +115,7 @@
 		\renewcommand\headrulewidth{0.5pt}
 		\renewcommand\footrulewidth{0.5pt}
 		\chead{}
-		\cfoot{\thepage\ of \pageref{LastPage}}
+		\cfoot{\thepage\ von \pageref{LastPage}}
 		\lhead{ \small
 				\textbf{\Universitaet}\\
 				\textit{\Fakultaet}\\
